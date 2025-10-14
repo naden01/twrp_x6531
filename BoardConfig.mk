@@ -169,8 +169,13 @@ TW_THEME := portrait_hdpi
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
-TW_STATUS_ICONS_ALIGN := center
-TW_NO_CPU_TEMP := true
 TW_DEVICE_VERSION := smiley_9000
 
+# Custom CPU Temp Path
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone4/temp"
 
+# StatusBar
+TW_STATUS_ICONS_ALIGN := center
+TW_CUSTOM_CPU_POS     := "300"
+TW_CUSTOM_CLOCK_POS   := "70"
+TW_CUSTOM_BATTERY_POS := "790"
