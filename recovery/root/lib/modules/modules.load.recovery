@@ -181,3 +181,4 @@ tkv.ko
 tkv_recovery.ko
 tnek.ko
 thd.ko
+regulator-vibrator.ko
