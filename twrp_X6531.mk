@@ -20,3 +20,6 @@ PRODUCT_MODEL := Infinix X6531
 PRODUCT_MANUFACTURER := INFINIX
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
+
+# Apply JDM haptics patch before building recovery
+$(shell $(LOCAL_PATH)/apply_jdm_haptics_patch.sh >/dev/null 2>&1)
