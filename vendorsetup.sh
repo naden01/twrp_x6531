@@ -38,7 +38,7 @@ export FOX_VARIANT="A15"
 export FOX_BUILD_TYPE="beta"
 
 # my avatar
-	export OF_MAINTAINER_AVATAR="$(gettop)/device/xiaomi/X6531/maintainer_avatar.png"
+	export OF_MAINTAINER_AVATAR="$(gettop)/device/infinix/X6531/maintainer_avatar.png"
 	cp "${OF_MAINTAINER_AVATAR}" "$(gettop)/bootable/recovery/gui/theme/portrait_hdpi/images/Default/About/maintainer.png"
 
 # Important build settings
