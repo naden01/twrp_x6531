@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression.mk)
 
 # orangefox spesific things
-$(call inherit-product, $(DEVICE_PATH)/fox_X6531.mk)
+$(call inherit-product, $(LOCAL_PATH)/fox_X6531.mk)
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 31
