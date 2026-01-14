@@ -171,7 +171,7 @@ TW_THEME := portrait_hdpi
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
-TW_DEVICE_VERSION := smiley_9000
+TW_DEVICE_VERSION := smiley_9000 -N | X6531
 
 # Custom CPU Temp Path
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone4/temp"
