@@ -146,3 +146,6 @@ zram.ko
 tran_rhi.ko
 tkv.ko
 tkv_recovery.ko
+flashlight.ko
+aw36515-mos.ko
+ocp81375-mos.ko

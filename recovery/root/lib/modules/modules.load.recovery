@@ -182,3 +182,6 @@ tkv_recovery.ko
 tnek.ko
 thd.ko
 regulator-vibrator.ko
+flashlight.ko
+aw36515-mos.ko
+ocp81375-mos.ko
