@@ -171,7 +171,11 @@ TW_THEME := portrait_hdpi
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
+TW_NO_FLASH_CURRENT_TWRP := true
 TW_DEVICE_VERSION := smiley_9000
+
+# no recovery partition
+TW_HAS_NO_RECOVERY_PARTITION := true
 
 # Custom CPU Temp Path
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone4/temp"
